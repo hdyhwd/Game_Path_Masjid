@@ -1,0 +1,404 @@
+Using pre-set license
+Built from '2021.3/release' branch; Version is '2021.3.38f1 (7a2fa5d8d101) revision 8007589'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16106 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.38f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/akuna/Game_Path_Masjid
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+2349
+Successfully changed project path to: C:/Users/akuna/Game_Path_Masjid
+C:/Users/akuna/Game_Path_Masjid
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [25628] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3429812742 [EditorId] 3429812742 [Version] 1048832 [Id] WindowsEditor(7,FARUQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [25628] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3429812742 [EditorId] 3429812742 [Version] 1048832 [Id] WindowsEditor(7,FARUQ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 97.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.38f1 (7a2fa5d8d101)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/akuna/Game_Path_Masjid/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x9a68)
+    Vendor:   Intel
+    VRAM:     8053 MB
+    Driver:   31.0.101.5333
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56020
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006255 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 70.28 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.791 seconds
+Domain Reload Profiling:
+	ReloadAssembly (792ms)
+		BeginReloadAssembly (131ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (538ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (143ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (70ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (164ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010464 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.137 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2138ms)
+		BeginReloadAssembly (176ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (1806ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (722ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (64ms)
+			SetupLoadedEditorAssemblies (831ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (691ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 1.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3080 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (46.8 KB). Loaded Objects now: 3541.
+Memory consumption went from 108.0 MB to 107.9 MB.
+Total: 10.085900 ms (FindLiveObjects: 0.394800 ms CreateObjectMapping: 0.395900 ms MarkObjects: 9.107600 ms  DeleteObjects: 0.185200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8521.028353 seconds.
+  path: Assets/Animation/Player/IdleRight.png
+  artifactKey: Guid(6c114cfe11866f540aea2405b0e30739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/IdleRight.png using Guid(6c114cfe11866f540aea2405b0e30739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ca50b832769038537a3df0cf02a6d6') in 0.469599 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Animation/Player
+  artifactKey: Guid(0c990913777d94041afd7b3f9daeb77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player using Guid(0c990913777d94041afd7b3f9daeb77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f494bf1b4c527129cfe95e08d3c9ea59') in 0.033181 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Animation/Player/IdleDown.png
+  artifactKey: Guid(955c15daf06866743bf1d147e21d483b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/IdleDown.png using Guid(955c15daf06866743bf1d147e21d483b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6932a6842b088eeedc3981462b7eaf2e') in 0.056979 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Animation/Player/WalkRight.png
+  artifactKey: Guid(9bf73f719bc7ac148b2f33ff9e261545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/WalkRight.png using Guid(9bf73f719bc7ac148b2f33ff9e261545) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcf21a2e61565ec5e65be8c68dc9fec9') in 0.060090 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Animation/Player/WalkUp 2.png
+  artifactKey: Guid(ee3ab09e6228d69459f2ce0b9b116637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/WalkUp 2.png using Guid(ee3ab09e6228d69459f2ce0b9b116637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a77b180b59304eba943b623b892f82cb') in 0.059016 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 463.921207 seconds.
+  path: Assets/Animation/Player/IdleDown.png
+  artifactKey: Guid(955c15daf06866743bf1d147e21d483b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/IdleDown.png using Guid(955c15daf06866743bf1d147e21d483b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79148a348525ac091e953fdef33f53b') in 0.106719 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.407841 seconds.
+  path: Assets/Animation/Player/IdleLeft.png
+  artifactKey: Guid(04cdcaef75f91bc4f80fee6449468cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/IdleLeft.png using Guid(04cdcaef75f91bc4f80fee6449468cab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a489db2eca2594dbb658cff8d87140f') in 0.072089 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.324113 seconds.
+  path: Assets/Animation/Player/IdleRight.png
+  artifactKey: Guid(6c114cfe11866f540aea2405b0e30739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/IdleRight.png using Guid(6c114cfe11866f540aea2405b0e30739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e01af889cc19202715820b033a843458') in 0.047711 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 11.686479 seconds.
+  path: Assets/Animation/Player/IdleUp.png
+  artifactKey: Guid(be682b09aa9100946a03ab7b30b81837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/IdleUp.png using Guid(be682b09aa9100946a03ab7b30b81837) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1d388f988a94ccac85ebdd7097adee8') in 0.049815 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.464797 seconds.
+  path: Assets/Animation/Player/WalkDown 2.png
+  artifactKey: Guid(7dbc9329245272a4f80cbaea54b1f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/WalkDown 2.png using Guid(7dbc9329245272a4f80cbaea54b1f799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6654c0f9ae7a2da99571612772967bd7') in 0.047638 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 7.540768 seconds.
+  path: Assets/Animation/Player/WalkDown.png
+  artifactKey: Guid(6356d5e88fa052d49b2368429bd23b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/WalkDown.png using Guid(6356d5e88fa052d49b2368429bd23b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '504a9fe60609439599e0be1bf1085980') in 0.047015 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 9.307473 seconds.
+  path: Assets/Animation/Player/WalkLeft.png
+  artifactKey: Guid(04ba35f85174e5d429f46581e10201a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/WalkLeft.png using Guid(04ba35f85174e5d429f46581e10201a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebf75c0edafe91aa2a33caa0f59f5553') in 0.045580 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.006626 seconds.
+  path: Assets/Animation/Player/WalkRight 2.png
+  artifactKey: Guid(98e70a02e7870ee4a8a2207d08bd2a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/WalkRight 2.png using Guid(98e70a02e7870ee4a8a2207d08bd2a1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9263bb30c6d8da0a18cdeeb78280d1f6') in 0.056783 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Animation/Player/WalkUp.png
+  artifactKey: Guid(9eeb6391afd59e14e82d4fa4e8cfd580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/WalkUp.png using Guid(9eeb6391afd59e14e82d4fa4e8cfd580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c07fc7e4fbcc206f4ca053f476324f') in 0.060688 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animation/Player/WalkUp 2.png
+  artifactKey: Guid(ee3ab09e6228d69459f2ce0b9b116637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Player/WalkUp 2.png using Guid(ee3ab09e6228d69459f2ce0b9b116637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '203bfc9b700758259968db3ff6281f84') in 0.066089 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 348.342654 seconds.
+  path: Assets/Animation
+  artifactKey: Guid(082828731e9fc8448823e3610e97e26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation using Guid(082828731e9fc8448823e3610e97e26a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fb591e21afc2bb1dcf57fcad7eefd4') in 0.036285 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.017318 seconds.
+  path: Assets/Animation/New Folder
+  artifactKey: Guid(2f82e346d9525a0488ccc1923ef88943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/New Folder using Guid(2f82e346d9525a0488ccc1923ef88943) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c29f77e5338ebb4acfe6de37f2894bb') in 0.037650 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 86.418720 seconds.
+  path: Assets/Animation/New Animator Controller.controller
+  artifactKey: Guid(97eb8ed06da712944b54ff06f7640dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/New Animator Controller.controller using Guid(97eb8ed06da712944b54ff06f7640dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1133805ab87240c780d2d7c607bd58f9') in 0.045295 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 2.966259 seconds.
+  path: Assets/Animation/PlayerAnimator.controller
+  artifactKey: Guid(97eb8ed06da712944b54ff06f7640dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/PlayerAnimator.controller using Guid(97eb8ed06da712944b54ff06f7640dfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bab644d28124933ac2f75f9c2fd085a3') in 0.025022 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 102.504649 seconds.
+  path: Assets/Animation/Sprites
+  artifactKey: Guid(6cd9f443e4cf6e44e95f8698e7a5d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites using Guid(6cd9f443e4cf6e44e95f8698e7a5d3ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f9e3d8f113b4df77e57d484a9db26f') in 0.025447 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 10.031070 seconds.
+  path: Assets/Animation/Sprites/Player
+  artifactKey: Guid(ab0dd7bef84d61d41a890e7d8e12360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites/Player using Guid(ab0dd7bef84d61d41a890e7d8e12360b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a54b04b4a7a29815cf38ca8f9c469c4c') in 0.004700 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 23.059262 seconds.
+  path: Assets/Animation/Sprites/Player/IdleDown.png
+  artifactKey: Guid(0737eca6de238de4497da7d3aed885a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites/Player/IdleDown.png using Guid(0737eca6de238de4497da7d3aed885a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd71fac9165d47869234b943695de4bd') in 0.061923 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Animation/Sprites/Player/WalkLeft 2.png
+  artifactKey: Guid(c4f9e63c797170a46875fa0d7f0a961e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites/Player/WalkLeft 2.png using Guid(c4f9e63c797170a46875fa0d7f0a961e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aa4bce5175b64bb5ede5a26f41c1403') in 0.044775 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Animation/Sprites/Player/WalkUp 2.png
+  artifactKey: Guid(4b3e509359efe1b43993230c0a362711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites/Player/WalkUp 2.png using Guid(4b3e509359efe1b43993230c0a362711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ef2ca4b05e0802e54dacc1680ed8a8') in 0.046129 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Animation/Sprites/Player/WalkDown.png
+  artifactKey: Guid(6f1d1828007fba344ab640a393b5bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites/Player/WalkDown.png using Guid(6f1d1828007fba344ab640a393b5bead) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3299e71a2bec1e5d2fa0359ce7991c') in 0.065346 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Animation/Sprites/Player/WalkDown 2.png
+  artifactKey: Guid(4b8924de3b83f6041a278465a7a45f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites/Player/WalkDown 2.png using Guid(4b8924de3b83f6041a278465a7a45f55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86837982b9b7999ea547cb7bb9a9c6b3') in 0.052987 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Animation/Sprites/Player/IdleRight.png
+  artifactKey: Guid(f1be95e28b64ba6469650d901cf45cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites/Player/IdleRight.png using Guid(f1be95e28b64ba6469650d901cf45cf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91f8d23ed83021a241b6e043ba72baad') in 0.049977 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Animation/Sprites/Player/WalkRight.png
+  artifactKey: Guid(2627e49fd7f7a5b40967933246cd003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites/Player/WalkRight.png using Guid(2627e49fd7f7a5b40967933246cd003f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91a649d9efd68d59129d6d1bbdfc4f12') in 0.045522 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Animation/Sprites/Player/WalkLeft.png
+  artifactKey: Guid(80b3671d89ec35a47aa67dcda6871b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Animation/Sprites/Player/WalkLeft.png using Guid(80b3671d89ec35a47aa67dcda6871b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbe7f646c97197f7e497fa38afa351be') in 0.053124 seconds 
+Number of asset objects unloaded after import = 3
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
