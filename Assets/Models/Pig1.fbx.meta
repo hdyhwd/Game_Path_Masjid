@@ -1,0 +1,197 @@
+fileFormatVersion: 2
+guid: 6109ebcc21d86364e88b56ea92b6bd97
+ModelImporter:
+  serializedVersion: 21300
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 1
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 0
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton:
+    - name: Pig1(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Cube
+      parentName: Pig1(Clone)
+      position: {x: -0, y: 1.4536865, z: 0}
+      rotation: {x: -0.70710677, y: 0, z: -0, w: 0.7071068}
+      scale: {x: 111.82903, y: 111.82903, z: 111.82903}
+    - name: pig.001
+      parentName: Pig1(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 143.55022, y: 143.55022, z: 143.55022}
+    - name: Bone
+      parentName: pig.001
+      position: {x: 0, y: -8.304362e-10, z: 0.008363424}
+      rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071067}
+      scale: {x: 1.0000001, y: 1, z: 1}
+    - name: Bone.001
+      parentName: Bone
+      position: {x: -0, y: 0.004754314, z: 0}
+      rotation: {x: -0, y: -0, z: -0, w: 1}
+      scale: {x: 0.9999999, y: 1, z: 1}
+    - name: Bone.001_end
+      parentName: Bone.001
+      position: {x: -0, y: 0.0046626567, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone.pinggang.L
+      parentName: Bone
+      position: {x: -0.0013115425, y: -0.00038375257, z: 0}
+      rotation: {x: 0.00000025331977, y: -0.00000008940698, z: 0.9928485, w: 0.11938104}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: bone.kaki.L
+      parentName: bone.pinggang.L
+      position: {x: -2.7959215e-10, y: 0.0035593202, z: 3.3271766e-10}
+      rotation: {x: -0.048726264, y: -0.030590298, z: 0.24379602, w: 0.9681186}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: bone.kaki.L_end
+      parentName: bone.kaki.L
+      position: {x: -0, y: 0.0037438362, z: 0}
+      rotation: {x: 0.04650259, y: 0.033874925, z: -0.30992344, w: 0.9490192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone.pinggang.R
+      parentName: Bone
+      position: {x: 0.0013115425, y: -0.00038375257, z: 0}
+      rotation: {x: 0.00000025331977, y: 0.00000008940698, z: -0.9928485, w: 0.11938104}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: bone.kaki.R
+      parentName: bone.pinggang.R
+      position: {x: 2.7959215e-10, y: 0.0035593202, z: 3.3271766e-10}
+      rotation: {x: 0.048726264, y: -0.030590298, z: 0.24379602, w: -0.9681186}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000001}
+    - name: bone.kaki.R_end
+      parentName: bone.kaki.R
+      position: {x: -0, y: 0.0037438362, z: 0}
+      rotation: {x: 0.04650259, y: -0.033874925, z: 0.30992344, w: 0.9490192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone.pinggang.L.001
+      parentName: Bone
+      position: {x: -0.0013115425, y: -0.00038375257, z: -0.0111762}
+      rotation: {x: 0.00000014901163, y: -0.00000014901163, z: 0.73221415, w: 0.68107444}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: bone.kaki.L.001
+      parentName: bone.pinggang.L.001
+      position: {x: 5.444889e-12, y: 0.0035593202, z: -2.6332878e-10}
+      rotation: {x: 0.0000002630393, y: -0.00000019994951, z: 0.5316982, w: 0.84693396}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1}
+    - name: bone.kaki.L.001_end
+      parentName: bone.kaki.L.001
+      position: {x: -0, y: 0.0037438362, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: bone.pinggang.R.001
+      parentName: Bone
+      position: {x: 0.0013115425, y: -0.00038375257, z: -0.0111762}
+      rotation: {x: 0.00000014901163, y: 0.00000014901163, z: -0.73221415, w: 0.68107444}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: bone.kaki.R.001
+      parentName: bone.pinggang.R.001
+      position: {x: -5.444889e-12, y: 0.0035593202, z: -2.6332878e-10}
+      rotation: {x: -0.00000025796493, y: -0.0000001944941, z: 0.5316982, w: -0.8469339}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1}
+    - name: bone.kaki.R.001_end
+      parentName: bone.kaki.R.001
+      position: {x: -0, y: 0.0037438362, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: pig.001
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 2
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
